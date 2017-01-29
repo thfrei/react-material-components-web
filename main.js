@@ -15,6 +15,8 @@ import {Elevation} from 'react-mdcw/lib/elevation';
 
 import TypographyExample from './typography';
 import ElevationExample from './elevation';
+import ButtonExample from './button';
+import FabExample from './fab';
 
 class Container extends React.Component {
   props: {
@@ -50,6 +52,9 @@ class Container extends React.Component {
           flexDirection: 'column'
         }}>
         <TemporaryDrawer
+          style={{
+            zIndex: 1
+          }}
           open={this.state.drawerOpen}
           onOpenDrawer={this.handleOpenDrawer}
           onCloseDrawer={this.handleCloseDrawer}>
@@ -76,6 +81,16 @@ class Container extends React.Component {
                   </Link>
                 </li>
                 <li>
+                  <Link to="/button">
+                    Button
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/fab">
+                    Fab
+                  </Link>
+                </li>
+                <li>
                   <a href="https://github.com/Hardtack/react-mdcw" target="_blank">
                     GitHub
                   </a>
@@ -98,22 +113,18 @@ class Container extends React.Component {
           backgroundColor="primary"
           textColor="primary"
           onColor="primary">
-          <Themed
-            wrap={<a />}
-            textColor="primary"
-            onColor="primary"
+          <a
             style={{
               display: 'flex',
               width: 64,
               height: 44,
               cursor: 'pointer',
-              backgroundColor: 'transparent',
               justifyContent: 'center',
               alignItems: 'center'
             }}
             onClick={this.handleMenuButtonPress}>
             MENU
-          </Themed>
+          </a>
         </Elevation>
         <div
           style={{
@@ -134,6 +145,8 @@ export default class Main extends React.Component {
           <IndexRedirect to="/typography" />
           <Route path="typography" component={TypographyExample} />
           <Route path="elevation" component={ElevationExample} />
+          <Route path="button" component={ButtonExample} />
+          <Route path="fab" component={FabExample} />
         </Route>
       </Router>
     );
