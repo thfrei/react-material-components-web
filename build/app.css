@@ -46,7 +46,6 @@
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  min-height: 150px;
   padding: 16px;
   margin: 16px;
 }
@@ -102,7 +101,13 @@
           justify-content: center;
   border-radius: 50%;
 }
-.formField--2taMh {
+.layout--WHnCo {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.form-field--1ZgYT {
   margin: 16px;
 }
 .container--30IAv {
@@ -159,6 +164,25 @@
 
 .headerLink--1RZEQ {
   text-decoration: none;
+}
+
+.toolbar--2ek3A {
+  height: 64px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu-button--17jKP {
+  padding: 16px;
+  cursor: pointer;
 }
 
 /* Project Style Entry Point */
