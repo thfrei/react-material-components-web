@@ -147,19 +147,15 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding: 16px;
+  padding-top: 80px;
 }
 
-.content--2aZ99 {
-  padding: 16px;
-  overflow: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  -ms-flex-positive: 1;
-      flex-grow: 1;
+.toolbar-layout--2wmo2 {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
 }
 
 .headerLink--1RZEQ {

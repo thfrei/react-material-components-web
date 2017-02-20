@@ -6,8 +6,7 @@ import {Grid, Cell} from '@react-mdc/layout-grid';
 import {Elevation} from '@react-mdc/elevation';
 
 import PageTitle from '../../components/page-title';
-import {FullSize} from '../../components/full-size';
-import {Section} from '../../components/section';
+import {Section} from 'app/js/components/section';
 
 import styles from './styles.css';
 
@@ -68,12 +67,12 @@ class TransitionBox extends React.Component {
 export default class ElevationExample extends React.Component {
   render (): React.Element<*> {
     return (
-      <FullSize>
+      <div>
         <PageTitle>
           Elevation Examples
         </PageTitle>
         <Section>
-          <Grid margin={16} gutter={24}>
+          <Grid margin={40} gutter={40}>
             <Box zSpace={0}>
               Elevation with 0 z-space
             </Box>
@@ -154,7 +153,7 @@ export default class ElevationExample extends React.Component {
             </TransitionBox>
           </Grid>
         </Section>
-      </FullSize>
+      </div>
     );
   }
 }
