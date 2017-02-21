@@ -62,6 +62,7 @@
     line-height: 1.6em;
 }
 .code--1h8Nt .CodeMirror {
+    font-size: 0.8em;
     height: auto;
 }
 .code--1h8Nt .CodeMirror pre {
