@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);@import url(https://fonts.googleapis.com/icon?family=Material+Icons);/* Material Icons */
+@import url(https://fonts.googleapis.com/css?family=Roboto);@import url(https://fonts.googleapis.com/css?family=Roboto+Mono);@import url(https://fonts.googleapis.com/icon?family=Material+Icons);/* Material Icons */
 .icon--2zpnS {
     font-family: 'Material Icons';
     font-weight: normal;
@@ -55,8 +55,17 @@
   max-width: 850px;
   margin: 16px;
 }
+.code--1h8Nt .CodeMirror-gutter-wrapper {
+    font-family: Roboto Mono, monospace;
+}
+.code--1h8Nt .CodeMirror-code {
+    line-height: 1.6em;
+}
 .code--1h8Nt .CodeMirror {
     height: auto;
+}
+.code--1h8Nt .CodeMirror pre {
+    font-family: Roboto Mono, monospace;
 }
 .item--j_e0b {
   padding: 16px;
@@ -12373,25 +12382,31 @@ span.CodeMirror-selectedtext { background: none; }
             justify-content: center;
 }
 html, body {
-    height: 100%;
+  height: 100%;
 }
 body {
-    margin: 0;
-    font-family: Roboto, sans-serif;
+  margin: 0;
+  font-family: Roboto, sans-serif;
 }
 #root {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    height: 100%;
-    width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+code, pre {
+  font-family: Roboto Mono, monospace;
+}
+code {
+  color: #444444;
 }
 
 /*# sourceMappingURL=app.css.map*/
