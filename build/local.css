@@ -170,16 +170,8 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 16px;
-  padding-top: 80px;
-  z-index: 1;
-}
-
-.toolbar-layout--2wmo2 {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .drawer--htI6R {
@@ -193,17 +185,6 @@
 }
 
 .toolbar--2ek3A {
-  height: 64px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   /* Codemirror has z-index > 3 */
   z-index: 9 !important;
   z-index: calc(10 - 1) !important;
@@ -211,7 +192,7 @@
 }
 
 .menu-button--17jKP {
-  padding: 16px;
+  padding-right: 16px;
   cursor: pointer;
 }
 
