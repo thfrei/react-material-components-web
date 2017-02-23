@@ -1,0 +1,218 @@
+/* Material Icons */
+.icon--2zpnS {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  // Preferred icon size
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    // Support for all WebKit browsers.
+    -webkit-font-smoothing: antialiased;
+    // Support for Safari and Chrome.
+    text-rendering: optimizeLegibility;
+    // Support for Firefox.
+    -moz-osx-font-smoothing: grayscale;
+    // Support for IE.
+    font-feature-settings: 'liga';
+}
+.fullsize--L5AGW {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.center--23NOW {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.section--2l_je {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 16px;
+  padding: 16px;
+  margin: 16px;
+  margin: 16px;
+}
+.code--1h8Nt {
+  max-width: 850px;
+  margin: 16px;
+}
+.code--1h8Nt .CodeMirror-gutter-wrapper {
+    font-family: Roboto Mono, monospace;
+}
+.code--1h8Nt .CodeMirror-code {
+    line-height: 1.6em;
+}
+.code--1h8Nt .CodeMirror {
+    font-size: 0.8em;
+    height: auto;
+}
+.code--1h8Nt .CodeMirror pre {
+    font-family: Roboto Mono, monospace;
+}
+.item--j_e0b {
+  padding: 16px;
+  min-height: 150px;
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+.bounded--30gWw {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  max-width: 300px;
+  height: 150px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 8px;
+}
+
+.unbounded--3WRmK {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+}
+.layout--WHnCo {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.form-field--1ZgYT {
+  margin: 16px;
+}
+
+.textarea--2DMV7 {
+  width: 100%;
+}
+.container--30IAv {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.grid--3fq9q {
+  background: #9e9e9e;
+}
+
+.cell--1_7SK {
+  background: #f5f5f5;
+  color: #212121;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 16px;
+  text-align: center;
+}
+.layout--6c7P1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 16px;
+  padding-top: 80px;
+  z-index: 1;
+}
+
+.toolbar-layout--2wmo2 {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.drawer--htI6R {
+  /* Codemirror has z-index > 3 */
+  z-index: 10 !important;
+  z-index: 10 !important;
+}
+
+.headerLink--1RZEQ {
+  text-decoration: none;
+}
+
+.toolbar--2ek3A {
+  height: 64px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* Codemirror has z-index > 3 */
+  z-index: 9 !important;
+  z-index: calc(10 - 1) !important;
+  z-index: calc(10 - 1) !important;
+}
+
+.menu-button--17jKP {
+  padding: 16px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=local.css.map*/
