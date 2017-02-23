@@ -8,13 +8,18 @@ import {
   URL_PREFIX
 } from './constants';
 
-const PRODUCTION_PLUGINS = [
+const ENV_PLUGINS = PRODUCTION ? [
   new webpack.optimize.UglifyJsPlugin({
     compress: {
       warnings: false
     }
+  }),
+  new webpack.DefinePlugin({
+    'process.env': {
+      NODE_ENV: JSON.stringify(process.env.NODE_ENV)
+    }
   })
-];
+] : [];
 
 export default {
   context: DOCS_ROOT,
@@ -27,7 +32,7 @@ export default {
       path: path.resolve(BUILD_PATH, '[name]-manifest.json'),
       name: '[name]_dll'
     })
-  ].concat(PRODUCTION ? PRODUCTION_PLUGINS : []),
+  ].concat(ENV_PLUGINS),
   output: {
     path: BUILD_PATH,
     publicPath: URL_PREFIX + 'build/',

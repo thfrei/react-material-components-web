@@ -28,6 +28,14 @@ const extractLocalStyle = new ExtractTextPlugin({
   filename: 'local.css'
 });
 
+const ENV_PLUGINS = PRODUCTION ? [
+  new webpack.DefinePlugin({
+    'process.env': {
+      NODE_ENV: JSON.stringify(process.env.NODE_ENV)
+    }
+  })
+] : [];
+
 export default {
   context: DOCS_ROOT,
   entry: {
@@ -47,7 +55,7 @@ export default {
     new webpack.optimize.UglifyJsPlugin({
       compress: PRODUCTION
     })
-  ],
+  ].concat(ENV_PLUGINS),
   output: {
     path: BUILD_PATH,
     publicPath: URL_PREFIX + 'build/',
