@@ -43,17 +43,9 @@
           flex-direction: column;
 }
 .section--2l_je {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  padding: 16px;
-  padding: 16px;
-  margin: 16px;
-  margin: 16px;
 }
 .code--1h8Nt {
   max-width: 850px;
-  margin: 16px;
 }
 .code--1h8Nt .CodeMirror-gutter-wrapper {
     font-family: Roboto Mono, monospace;
@@ -67,6 +59,21 @@
 }
 .code--1h8Nt .CodeMirror pre {
     font-family: Roboto Mono, monospace;
+}
+.page-container--3G7QE {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.demo--2gtjt hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #eeeeee;
+    padding: 0;
+}
+.demo-content--3SaU_ {
+  padding: 16px;
 }
 .item--j_e0b {
   padding: 16px;
