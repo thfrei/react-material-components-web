@@ -46,6 +46,8 @@
 }
 .code--1h8Nt {
   max-width: 850px;
+  margin-top: 14px;
+  margin-bottom: 14px;
 }
 .code--1h8Nt .CodeMirror-gutter-wrapper {
     font-family: Roboto Mono, monospace;
@@ -74,6 +76,40 @@
 }
 .demo-content--3SaU_ {
   padding: 16px;
+}
+.demo-title--25VZJ {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.table--3GFaq {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8em;
+  text-align: left;
+}
+.table--3GFaq thead tr {}
+.table--3GFaq thead tr:last-child {
+  border: 0;
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #CCC;
+  border-color: #CCC;
+}
+.table--3GFaq tbody tr {
+  border: 0;
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #CCC;
+  border-color: #CCC
+}
+.table--3GFaq tbody tr:last-child {
+  border-bottom: 0;
+}
+.table--3GFaq tbody tr:hover {
+  background: #EEEEEE;
+}
+.table--3GFaq td, .table--3GFaq th {
+  padding: 8px;
 }
 .item--j_e0b {
   padding: 16px;
