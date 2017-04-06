@@ -119,41 +119,6 @@
 .table--2Mn1V td, .table--2Mn1V th {
     padding: 8px;
 }
-.bounded--30gWw {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  max-width: 300px;
-  height: 150px;
-  cursor: pointer;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
-  padding: 8px;
-}
-
-.unbounded--3WRmK {
-  width: 100px;
-  height: 100px;
-  cursor: pointer;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  border-radius: 50%;
-}
 .layout--WHnCo {
   -webkit-box-flex: 1;
       -ms-flex: 1;
