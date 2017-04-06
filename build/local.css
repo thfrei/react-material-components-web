@@ -119,19 +119,6 @@
 .table--2Mn1V td, .table--2Mn1V th {
     padding: 8px;
 }
-.layout--WHnCo {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-}
-
-.form-field--1ZgYT {
-  margin: 16px;
-}
-
-.textarea--2DMV7 {
-  width: 100%;
-}
 .layout--6c7P1 {
     display: -webkit-box;
     display: -ms-flexbox;
