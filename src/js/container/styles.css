@@ -1,5 +1,5 @@
 :root {
-    --app-toolbar-z-index: 10;
+    --app-drawer-z-index: 10;
     --app-toolbar-height: 64px;
     --app-content-padding: 16px;
     --app-drawer-width: 240px;
@@ -44,9 +44,13 @@
     z-index: calc(var(--app-toolbar-z-index)) !important;
 }
 
+.toolbar-title {
+    color: var(--mdc-theme-text-primary-on-primary, white);
+    text-decoration: none;
+}
+
 .toolbar-icon {
     padding-right: 16px;
-    cursor: pointer;
 }
 
 :global {

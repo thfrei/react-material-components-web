@@ -175,9 +175,14 @@
     z-index: calc(10) !important;
 }
 
+.toolbar-title--1Kf8K {
+    color: white;
+    color: white;
+    text-decoration: none;
+}
+
 .toolbar-icon--14E40 {
     padding-right: 16px;
-    cursor: pointer;
 }
 
 .mdc-dialog--open {
