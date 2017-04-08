@@ -14,14 +14,9 @@ import * as styles from "./styles.css";
 
 export type Props = {
     className?: string,
-    onMenuButtonClick: () => void,
 };
 
 export default class MainToolbar extends React.Component<Props, {}> {
-    public static defaultProps = {
-        onMenuButtonClick: () => { },
-    };
-
     public props: Props;
 
     public render() {
@@ -29,9 +24,7 @@ export default class MainToolbar extends React.Component<Props, {}> {
             <Toolbar className={classNames(this.props.className, styles.toolbar)} fixed={true}>
                 <Row>
                     <Section align="start">
-                        <MaterialIcon
-                            className={styles["menu-button"]}
-                            onClick={this.props.onMenuButtonClick}>
+                        <MaterialIcon className={styles["menu-button"]}>
                             menu
                         </MaterialIcon>
                     </Section>
