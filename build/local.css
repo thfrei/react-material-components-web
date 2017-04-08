@@ -140,15 +140,15 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    height: 100%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
 }
 
 .drawer-layout--LRqM_ {
-    width: 240px;
-    width: 240px;
+    height: auto;
     z-index: 10;
     z-index: 10;
-    height: 100%;
     overflow: auto;
     /* For Safari */
     -webkit-overflow-scrolling: touch;
@@ -158,12 +158,13 @@
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
-    height: 100%;
     overflow: auto;
     padding-left: 16px;
     padding-left: 16px;
     padding-right: 16px;
     padding-right: 16px;
+    /* For Safari */
+    -webkit-overflow-scrolling: touch;
 }
 
 .drawer--htI6R {
