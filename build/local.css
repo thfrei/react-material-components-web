@@ -134,6 +134,8 @@
 }
 
 .drawer-layout--LRqM_ {
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
     z-index: 10;
     z-index: 10;
     height: auto;
