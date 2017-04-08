@@ -5,6 +5,7 @@ import * as classNames from "classnames";
 import {
     Row,
     Section,
+    Title,
     Toolbar,
 } from "@react-mdc/toolbar";
 
@@ -24,9 +25,12 @@ export default class MainToolbar extends React.Component<Props, {}> {
             <Toolbar className={classNames(this.props.className, styles.toolbar)} fixed={true}>
                 <Row>
                     <Section align="start">
-                        <MaterialIcon className={styles["menu-button"]}>
-                            menu
+                        <MaterialIcon className={styles["toolbar-icon"]}>
+                            layers
                         </MaterialIcon>
+                        <Title>
+                            React Material Components Web
+                        </Title>
                     </Section>
                 </Row>
             </Toolbar>
