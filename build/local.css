@@ -136,29 +136,30 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-left: 240px;
-    padding-left: 240px;
-}
-
-.left-layout--2WYdt {
-    position: fixed;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 240px;
-    width: 240px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 100%;
 }
 
 .drawer-layout--LRqM_ {
-    width: 100%;
+    width: 240px;
+    width: 240px;
+    z-index: 10;
+    z-index: 10;
     height: 100%;
     overflow: auto;
+    /* For Safari */
+    -webkit-overflow-scrolling: touch;
 }
 
 .inner-layout--25IYE {
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
+    height: 100%;
+    overflow: auto;
     padding-left: 16px;
     padding-left: 16px;
     padding-right: 16px;
@@ -170,9 +171,9 @@
 
 .toolbar--2ek3A {
     /* Codemirror has z-index > 3 */
-    z-index: 10 !important;
-    z-index: calc(10) !important;
-    z-index: calc(10) !important;
+    z-index: 11 !important;
+    z-index: calc(10 + 1) !important;
+    z-index: calc(10 + 1) !important;
 }
 
 .toolbar-title--1Kf8K {
@@ -187,9 +188,9 @@
 
 .mdc-dialog--open {
     /* Codemirror has z-index > 3 */
-    z-index: 11 !important;
-    z-index: calc(10 + 1) !important;
-    z-index: calc(10 + 1) !important;
+    z-index: 12 !important;
+    z-index: calc(10 + 2) !important;
+    z-index: calc(10 + 2) !important;
 }
 
 /*# sourceMappingURL=local.css.map*/
