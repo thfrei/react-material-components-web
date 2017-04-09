@@ -22,9 +22,11 @@
     font-feature-settings: 'liga';
 }
 .fullsize--L5AGW {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }
 .center--23NOW {
     display: -webkit-box;
